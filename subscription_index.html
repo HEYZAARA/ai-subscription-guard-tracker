@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Subscription Guard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI Subscription Guard Tracker</h1>
+        <p>Intelligent tracking for your monthly subscriptions.</p>
+        
+        <div class="input-area">
+            <input type="text" id="subName" placeholder="Subscription Name (e.g., Netflix)">
+            <input type="number" id="subCost" placeholder="Monthly Cost ($)">
+            <button onclick="addSubscription()">Add Subscription</button>
+        </div>
+
+        <hr>
+        
+        <h2>💰 My Subscriptions</h2>
+        <ul id="subscriptionList">
+            </ul>
+        
+        <div class="analysis">
+            <p>Total Monthly Spend: <span id="totalCost">$0.00</span></p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
